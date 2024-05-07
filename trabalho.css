@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(63, 63, 63);
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.tabela{
+    justify-content: left;
+    display: flex;
+    text-align: left;
+    align-items: left;
+    width: 100%;
+    margin-left: 50px;
+}
+#titulo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 1px solid white;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+}
+th{
+    background-color: #f2f2f2;
+    border: 2px solid black;
+    
+}
+.branca{
+    background-color: white;
+    border: 2px solid black;
+}
+.cabecalho{
+    background-color: red;
+    border: 2px solid black;
+}
+.nome{
+    background-color: blue;
+    border: 2px solid black;
+}
+.botoes{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#botao1, #botao2, #botao3, #botao4, #botao5, #botao6{
+    border-radius: 5px;
+    margin: 30px 70px;
+    background-color: grey;
+    width: 95px;
+    height: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: background-color 0.5s;
+}
+#botao1:hover, #botao2:hover, #botao3:hover,
+#botao4:hover, #botao5:hover, #botao6:hover{
+    background-color: rgb(73, 72, 72);
+    cursor: pointer;
+}
+.imagem{
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    width: 100%;
+    margin-right: 100px;
+}
+.imagem img{
+    max-width: 100%;
+    height: auto;
+}
+.inicio{
+    background-color: aquamarine;
+    width: 95px;
+    height: 40px;
+    margin: 30px 70px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+.iniciar{
+    justify-content: center;
+    display: flex;
+}
+.inicio:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
